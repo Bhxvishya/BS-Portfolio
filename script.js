@@ -40,6 +40,7 @@ class ThemeManager {
 // Mobile Navigation Toggle
 document.addEventListener('DOMContentLoaded', function () {
     // Initialize theme manager
+    const themeManager = new ThemeManager();
 
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
